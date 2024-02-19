@@ -1,12 +1,16 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+nav .container-fluid ul li a{
+    color: white;
+}
+.navbar{
+    justify-content: space-between;
+}
+.jumbotron{
+background-color: whitesmoke;
+}
+nav .container-fluid a{
+    color: white;
+}
+.linea-cards{
+    /*margin-top: 5%;*/
+    display: flex;
+}
