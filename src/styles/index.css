@@ -6,6 +6,7 @@ nav .container-fluid ul li a{
 }
 .jumbotron{
 background-color: whitesmoke;
+padding: 5%;
 }
 nav .container-fluid a{
     color: white;
@@ -13,4 +14,37 @@ nav .container-fluid a{
 .linea-cards{
     /*margin-top: 5%;*/
     display: flex;
+}
+.card-containers{
+    margin: 0 !important; 
+
+}
+
+.fila{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.final_boton{
+    background-color: whitesmoke;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.linea_boton{
+    margin: 0;
+    
+}
+
+.foot{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 12vh;
+}
+.color-w{
+    color: white;
 }

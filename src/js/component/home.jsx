@@ -1,18 +1,18 @@
 import React from "react";
-//import rigoImage from "../../img/rigo-baby.jpg";
+
 //create your first component
 const Home = () => {
-	return (
+  return (
 
-		<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-    <div class="container-fluid">
-		<div>
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-	  	</div>
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="col-2"></div>
+      <div className="col-4"><a class="navbar-brand" href="#">Start Bootstrap</a></div>
+      
+      <div className="col-2"></div>
+      <div class="collapse navbar-collapse col-4" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -24,14 +24,13 @@ const Home = () => {
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
+
       </div>
-    </div>
-  </nav>
+    </nav>
 
-	
-		
 
-	);
+
+  );
 };
 
 

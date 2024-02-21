@@ -9,10 +9,11 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 import Jumbo from "./component/jumbotron.jsx";
 import Card from "./component/card.jsx";
-
+import Foot from "./component/footer.jsx"
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
 ReactDOM.render(<Jumbo />, document.querySelector("#jumbotron"));
+
 const CardsContainer = () => {
     const numberOfCards = 4;
     const cards = [];
@@ -21,7 +22,8 @@ const CardsContainer = () => {
         cards.push(<Card key={index}/>);
     }
 
-    return <div class="row">{cards}</div>;
+    return <div class="fila">{cards}</div>;
 };
 
 ReactDOM.render(<CardsContainer />, document.querySelector("#cards_varias"));
+ReactDOM.render(<Foot />, document.querySelector("#foot"));
